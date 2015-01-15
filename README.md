@@ -5,6 +5,11 @@ to match layouts. Now it's your turn to get creative.
 Use the HTML you've been given, and design it to your liking.
 BUT… you have to use the requirements below:
 
+## Content
+
+Let's try something new. There's content in a file called source.txt.
+Your turn to turn this into HTML.
+
 ## Layout requirements
 
 * The header should be full-width with a background image.
@@ -18,7 +23,7 @@ BUT… you have to use the requirements below:
 * Use a free [Google webfont](https://www.google.com/fonts)
 * Specify line-height.
 * Use the inline-block method to create a grid.
-* Make granular commits. Always Be Pushing!
+* Make granular commits. Always Be Pushing! (APB)
 
 ## Bonus
 
