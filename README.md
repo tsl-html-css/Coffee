@@ -3,21 +3,22 @@
 Hi there. We've done quite a bit of writing HTML & CSS
 to match layouts. Now it's your turn to get creative.
 Use the HTML you've been given, and design it to your liking.
-BUT...you have to use the requirements below:
+BUT… you have to use the requirements below:
 
 ## Layout requirements
 
-* A header with a full-width background image
-* The paragraphs at the top should feature a 2 column grid
-* The quote in the intro should be centered
-* At the bottom, include at least 2 links to your favorite coffee company
+* The header should be full-width with a background image.
+* The paragraphs at the top should be in a 2-column grid.
+* The quote in the header should be centered.
 * The individual coffee options should conform to a grid. The number of columns is up to you.
+* At the bottom, add a `<footer>` and include at least 3 links to your favorite coffee companies or coffeeshops. Use a grid.
 
 ## Technical requirements
 
-* Use a free Google webfont
-* Specify line-height
-* Use the inline-block method to create a grid
+* Use a free [Google webfont](https://www.google.com/fonts)
+* Specify line-height.
+* Use the inline-block method to create a grid.
+* Make granular commits. Always Be Pushing!
 
 ## Bonus
 
