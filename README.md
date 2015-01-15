@@ -7,7 +7,7 @@ BUT… you have to use the requirements below:
 
 ## Content
 
-Let's try something new. There's content in a file called source.txt.
+Here's a new thing: There's content in a file called source.txt.
 Your turn to turn this into HTML.
 
 ## Layout requirements
