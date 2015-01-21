@@ -1,41 +1,18 @@
-## Get creative.
+## Get Fancy
 
-Hi there. We've done quite a bit of writing HTML & CSS
-to match layouts. Now it's your turn to get creative.
-Use the HTML you've been given, and design it to your liking.
-BUT… you have to use the requirements below:
+So you've created a coffee website. Now it's time to make sure it's responsive. You'll also need to add some CSS transitions to create a clearer sense of UX.
 
-## Content
+## Responsive requirements
 
-Here's a new thing: There's content in a file called source.txt.
-Your turn to turn this into HTML.
+* Create at least 2 breakpoints.
+* The first breakpoint should be at 768px, a standard screen size. The four columns should go down to two columns.
+* The next breakpoint should be at 480px, a good benchmark for mobile devices. The four columns should go down to a single column, and the paragraphs at the top should also be a single column. 
 
-## Layout requirements
+## Transitions to include
 
-* The header should be full-width with a background image.
-* The paragraphs at the top should be in a 2-column grid.
-* The quote in the header should be centered.
-* The individual coffee options should conform to a grid. The number of columns is up to you.
-* At the bottom, add a `<footer>` and include at least 3 links to your favorite coffee companies or coffeeshops. Use a grid.
+Create different transitions to spice things up. Include the following:
 
-## Technical requirements
-
-* Use a free [Google webfont](https://www.google.com/fonts)
-* Specify line-height.
-* Use the inline-block method to create a grid.
-* Make granular commits. Always Be Pushing! (APB)
-
-## Bonus
-
-* CSS-only drop cap on first letter of first paragraph.
-
-## Nicely designed gridded sites
-
-* [Pinterest](http://www.pinterest.com/)
-* [New York Times (newspaper homepage)](http://www.nytimes.com/)
-* [The Local Palate (magazine)](http://thelocalpalate.com/)
-* [Palaxy Tracks](https://www.palaxytracks.com/)
-* [Apple](http://www.apple.com/)
-* [Layer Tennis](http://www.layertennis.com/seasons)
-* [Jukely](http://www.jukely.com)
-* [Blue Bottle Coffee (store)](https://bluebottlecoffee.com/store/coffee)
+* One coffee item should fade in a background color when hovered over
+* One coffee item should grow to 1.5 its current size when hovered over
+* One coffee item's text should grow by 150% when hovered over
+* One coffee item should become completely transparent when hovered over
