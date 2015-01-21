@@ -94,7 +94,6 @@ blockquote p:after {
 }
 
 .coffee-img {
-    width: 100%;
-    max-width: 8rem;
+    width: 158px;
     display: inline-block;
 }
