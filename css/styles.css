@@ -5,7 +5,7 @@ HalfWit coffee roaster store
 */
 
 body {
-    font-family: "georgia", Times, "Times New Roman", serif;
+    font-family: "Merriweather", "georgia", Times, "Times New Roman", serif;
     line-height: 1.5rem;
 }
 
@@ -43,7 +43,7 @@ blockquote p:after {
 .description {
     color: #888;
     font-size: .8125rem;
-    line-height: 1rem;
+    line-height: 1.25rem;
 }
 
 .intro {
