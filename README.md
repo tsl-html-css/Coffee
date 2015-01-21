@@ -4,11 +4,22 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 
 ## Responsive requirements
 
-* Create at least 2 breakpoints.
-* The first breakpoint should be at 768px, a standard screen size. The four columns should go down to two columns.
-* The next breakpoint should be at 480px, a good benchmark for mobile devices. The four columns should go down to a single column, and the paragraphs at the top should also be a single column. 
+### Below 480px
 
-## Transitions to include
+* Only show the coffee bean background behind the title, not the text below it.
+* One column of header text.
+* Don't use any columns for the coffee types.
+
+### Above 480px
+
+* Header paragraphs to two columns.
+* Put the coffee types in two columns.
+
+### Above 768px
+
+* Put the coffee types into four columns.
+
+## Transitions
 
 Create different transitions to spice things up. Include the following:
 
