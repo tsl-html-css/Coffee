@@ -4,6 +4,8 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 
 ## Responsive requirements
 
+* Make the coffee bag images resize as the window resizes
+
 ### Below 480px
 
 * Only show the coffee bean background behind the title, not the text below it.
