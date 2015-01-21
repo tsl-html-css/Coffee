@@ -47,8 +47,8 @@ blockquote p:after {
 }
 
 .intro {
-    padding: 2rem 0;
-    background: url(../images/coffee-beans.jpg) 0 0 no-repeat;
+    padding: 4rem 0;
+    background: url(../images/coffee-beans-dark.jpg) 0 0 no-repeat;
     background-size: cover;
     color: #fff;
     margin-bottom: 3rem;
@@ -74,6 +74,14 @@ blockquote p:after {
     width: 50%;
     vertical-align: top;
     padding: .75rem;
+}
+
+.col-6:first-of-type:first-letter {
+    font-size: 3.5rem;
+    float: left;
+    position: relative;
+    margin-top: .75rem;
+    padding: 0 .25rem .5rem 0;
 }
 
 .col-3 {
