@@ -20,6 +20,7 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 ### Above 768px
 
 * Put the coffee types into four columns.
+* Don't let the page go wider than 800 or 900px, whatever you feel works.
 
 ## Transitions
 
