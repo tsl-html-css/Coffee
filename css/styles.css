@@ -17,6 +17,7 @@ nav {
     left: 0;
     padding: 1rem 0;
     text-align: center;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
 }
 
 nav a {
