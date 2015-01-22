@@ -1,6 +1,6 @@
 ## Get Fancy
 
-So you've created a coffee website. Now it's time to make sure it's responsive. You'll also need to add some CSS transitions to create a clearer sense of UX.
+So you've created a coffee website. Now it's time to make sure it's responsive. You'll mostly need to add CSS, but feel free to add HTML if it'll help. You'll also need to add some CSS transitions to create a clearer sense of UX.
 
 ## Responsive requirements
 
@@ -31,9 +31,12 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 
 ## Transitions
 
-Create different transitions to spice things up. Include the following:
+Create different transitions to spice things up. Include the following. All should happen over time, but you can determine how long for each.
 
-* One coffee item should fade in a background color when hovered over
-* One coffee item should grow to 1.5x its current size when hovered over
-* One coffee item's text should grow by 150% when hovered over
-* One coffee item should become completely transparent when hovered over
+For all items:
+
+* When you hover over a nav item, give it a border on the bottom.
+* When you hover over any coffee item, it should become entirely opaque.
+* When you hover over any coffee item, the text size should grow by 150%.
+* When you check "Add to cart", give the "Add to cart" text a yellow background and full opacity.
+* Pick one other attribute and change it with a transition.
