@@ -33,8 +33,6 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 
 Create different transitions to spice things up. Include the following. All should happen over time, but you can determine how long for each.
 
-For all items:
-
 * When you hover over a nav item, give it a border on the bottom.
 * When you hover over any coffee item, it should become entirely opaque.
 * When you hover over any coffee item, the text size should grow by 150%.
