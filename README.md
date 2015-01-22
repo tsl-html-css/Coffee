@@ -8,14 +8,16 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 
 ### Below 480px
 
+* Lower the base font size so that there's more content on the screen at once.
 * Only show the coffee bean background behind the title, not the text below it.
 * One column of header text.
 * Don't use any columns for the coffee types.
+* Nav shouldn't be fixed, nav items should stack vertically
 
 ### Above 480px
-
 * Header paragraphs to two columns.
 * Put the coffee types in two columns.
+* Make the base font size bigger
 
 ### Above 768px
 
