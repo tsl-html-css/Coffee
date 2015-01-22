@@ -9,6 +9,26 @@ body {
     line-height: 1.5rem;
 }
 
+nav {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #52B7E9;
+    padding: 0 .5rem;
+}
+
+nav a:hover {
+    color: #008BAF;
+}
+
 h1 {
     font-size: 3rem;
     line-height: 3.25rem;
@@ -57,6 +77,10 @@ header {
 
 header h1 {
     text-align: center;
+}
+
+#about {
+    padding-top: 3rem;
 }
 
 .intro {
