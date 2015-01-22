@@ -34,6 +34,6 @@ So you've created a coffee website. Now it's time to make sure it's responsive. 
 Create different transitions to spice things up. Include the following:
 
 * One coffee item should fade in a background color when hovered over
-* One coffee item should grow to 1.5 its current size when hovered over
+* One coffee item should grow to 1.5x its current size when hovered over
 * One coffee item's text should grow by 150% when hovered over
 * One coffee item should become completely transparent when hovered over
