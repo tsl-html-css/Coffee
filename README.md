@@ -1,40 +1,21 @@
-## Get Fancy
+# Sass practice
 
-So you've created a coffee website. Now it's time to make sure it's responsive. You'll mostly need to add CSS, but feel free to add HTML if it'll help. You'll also need to add some CSS transitions to create a clearer sense of UX.
+## Step 1: nesting
 
-## Responsive requirements
+Use Sass to nest all rules.
 
-* Make the coffee bag images resize as the window resizes
+You'll need to learn a certain trick for using psuedo-selectors in nested Sass rules. See if you can Google it.
 
-### Below 480px
+## Step 2: colors
 
-* Start with a base font size (in your `html` tag) that works best on mobile).
-* Nav items should stack vertically.
-* Show the coffee bean background image behind the title, not bheind the paragraphs below it.
-* One column of header text.
-* Don't use any columns for the coffee bags.
-* Coffee bags and text should appear side-by-side.
+First define a variable for your dominent color. You can use the color currently being assigned to `<a>` tags. Then, use one of the color function you've learned to alter the color of links when being hovered.
 
-### Above 480px
+Then, define an accent color. (Maybe use a brown from the coffee image.) Use that new variable for the `ADD TO CART` text. And then add a hover state to all the coffee flavors and use a lighter version of that brown for a background color when using hover.
 
-* Make the base font size bigger, for desktop use.
-* Horizontal nav.
-* Make nav fixed.
-* Header paragraphs to two columns.
-* Put the coffee bags in two columns.
+## Step 3: imports
 
-### Above 768px
+You'll notice that I renamed `css/reset.css` to `cs//_reset.css`. This file is generated via `scss/_reset.scss`. I renamed it for a reason that has to do with a feature of Sass that allows for importing other files. See if you can figure out how to import that file at the top of our `screen.scss` file. When you do, you'll no longer need to link to `_reset.css` at all.
 
-* Don't let the page go wider than 800 or 900px, whatever you feel works.
-* Put the coffee bags into four columns.
-* Descriptive text should appear underneath the coffee bags.
+## Bonus: math
 
-## Transitions
-
-Create different transitions to spice things up. Include the following. All should happen over time, but you can determine how long for each.
-
-* When you hover over a nav item, give it a border on the bottom.
-* When you hover over any coffee item, it should become entirely opaque.
-* When you hover over any coffee item, the text size should grow by 150%.
-* When you check "Add to cart", give the "Add to cart" text a yellow background and full opacity.
-* Pick one other attribute and change it with a transition.
+Sass has very strong support for math. If you finish before other people, play around with some of the numbers in the CSS file by replacing them with variables and math.
