@@ -14,7 +14,7 @@ Then, define an accent color. (Maybe use a brown from the coffee image.) Use tha
 
 ## Step 3: imports
 
-You'll notice that I renamed `css/reset.css` to `cs//_reset.css`. This file is generated via `scss/_reset.scss`. I renamed it for a reason that has to do with a feature of Sass that allows for importing other files. See if you can figure out how to import that file at the top of our `screen.scss` file. When you do, you'll no longer need to link to `_reset.css` at all.
+You'll notice that I renamed `css/reset.css` to `css/_reset.css`. This file is generated via `scss/_reset.scss`. I renamed it for a reason that has to do with a feature of Sass that allows for importing other files. See if you can figure out how to import that file at the top of our `screen.scss` file. When you do, you'll no longer need to link to `_reset.css` at all.
 
 ## Bonus: math
 
