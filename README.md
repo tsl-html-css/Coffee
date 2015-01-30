@@ -1,5 +1,7 @@
 # Sass practice
 
+[Download this repo](https://github.com/tsl-html-css/Coffee/archive/sass-practice.zip), don't fork or clone it.
+
 ## Step 1: nesting
 
 Use Sass to nest all rules.
